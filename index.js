@@ -12,7 +12,7 @@ if(jobChange == jobs[jobIndex].length){
     jobChange = 0;
 }
 if(jobs == jobs.length){
-    jobs = 2;
+    jobs = 0;
 }
 
 setTimeout(updateText, 400)
