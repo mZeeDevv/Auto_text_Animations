@@ -6,7 +6,7 @@ let jobChange = 0;
 updateText()
 function updateText(){
     jobChange++
-text.innerHTML = `<h3>mZee Dev a ${jobs[jobIndex].slice(0, jobChange)} <h3>`;
+text.innerHTML = `<h3>mZee Dev a <u style="color: yellow;">${jobs[jobIndex].slice(0, jobChange)}</style> <h3>`;
 if(jobChange == jobs[jobIndex].length){
     jobIndex++
     jobChange = 0;
